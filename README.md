@@ -1,5 +1,5 @@
 # Portfolio-setup_and_mobile_version_skeleton
--This project is to set up my Portfolio, The goal is to create the mobile homepage of portfolio
+- This project is to set up my Portfolio, The goal is to create the mobile homepage of portfolio
    - i.e The header, 
    - The headline section (right after the header)
 - Set up a Branch
