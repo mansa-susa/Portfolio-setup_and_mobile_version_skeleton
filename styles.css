@@ -11,6 +11,10 @@ body {
   background-color: #1c1a19;
 }
 
+.flex {
+  display: flex;
+}
+
 header {
   display: flex;
   background-color: #3c3a39;
@@ -19,8 +23,10 @@ header {
 }
 
 #logo {
-  margin: 20px 10px;
+  margin: 20px 20px;
   color: whitesmoke;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 #hamburger {
@@ -30,7 +36,7 @@ header {
   height: 12px;
 }
 
-main {
+section {
   margin: 0 20px;
   height: 590px;
   color: whitesmoke;
@@ -40,13 +46,12 @@ main {
   background-size: auto 450px;
 }
 
-main h1 {
+section h1 {
   color: #ff6b00;
   margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 20px;
   font-family: 'Crete Round', sans-serif;
-  font-style: normal;
   font-size: 56px;
   font-weight: 400;
   line-height: 64px;
@@ -65,20 +70,23 @@ article p {
   text-align: left;
 }
 
-article h3 {
+h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
-  line-height: 32px;
   letter-spacing: 0;
   text-align: left;
-  color: #fff5e1;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   margin-left: 20px;
 }
 
-#socials ul {
+article h3 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.socials ul {
   list-style: none;
   display: flex;
   margin-left: 50px;
