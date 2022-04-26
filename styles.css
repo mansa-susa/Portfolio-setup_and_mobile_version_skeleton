@@ -269,3 +269,78 @@ a.button {
   text-align: center;
   text-decoration: none; 
 }
+
+.about{
+  background-image: url(imgs/aboutbgd.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto 450px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.about p{
+  grid-column: 1 / 5;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about a{
+  grid-column: 1 / 4;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #FF6B00;
+  height: 80px;
+  color: #FFFFFF;
+  margin-left: 316px;
+  margin-right: 118px;
+  padding-top: 20px;
+  border: 2px solid blue;
+  margin-top: 50px;
+}
+.frameworks ul{
+  list-style: url(imgs/fwliststyle.png);
+  margin: 50px 38%;
+  font-family: InaiMathi;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.languages ul{
+  list-style: url(imgs/fmliststyle.png);
+  margin: 50px 38%;
+   font-family: InaiMathi;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.skills ul{
+  list-style: url(imgs/skliststyle.png);
+  margin: 50px 38%;
+   font-family: InaiMathi;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+ul.inner{
+  list-style: none;
+}
