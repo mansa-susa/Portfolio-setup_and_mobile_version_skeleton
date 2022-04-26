@@ -246,3 +246,26 @@ ul.featured li {
 background: rgba(255, 255, 255, 0.24);
 padding: 10px 12px;
 }
+
+h3.button {
+  position: relative;
+  top: 250px;
+  padding-right: 40px;
+  grid-column: 1/ 6;
+  background: #FF6B00;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+a.button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color:#FFFFFF;
+  height: 48px;
+  text-align: center;
+  text-decoration: none; 
+}
