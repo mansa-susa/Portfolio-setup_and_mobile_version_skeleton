@@ -11,19 +11,19 @@ body {
 }
 
 header {
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   height: 100px;
   display: flex;
-  margin: 0px 0px;
+  margin: 0 0;
 }
 
 #logo {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -43,10 +43,10 @@ h1 {
 h2 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
-h3  {
+h3 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -58,13 +58,13 @@ article {
 }
 
 article.intro {
-  background-color: #1C1A19;
+  background-color: #1c1a19;
   background-image: url("imgs/bgdvetor.png");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: auto 450px;
-  background-color: #1c1a19;
 }
+
 ul {
   list-style: none;
   display: flex;
@@ -77,54 +77,54 @@ main {
   margin: 0 20px;
 }
 
-.intro  h1 {
+.intro h1 {
   width: 327px;
   height: 124px;
   font-size: 56px;
   line-height: 64px;
   margin-left: 20px;
   padding-top: 50px;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 .intro h3 {
   font-size: 24px;
   line-height: 32px;
-  color: #FFF5E1;
+  color: #fff5e1;
   margin: 12px 20px;
   padding-top: 50px;
   width: 327px;
   height: 27px;
 }
 
-.intro p  {
+.intro p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
   margin-left: 20px;
   padding-top: 50px;
   height: 150px;
 }
 
-ul.socials{
+ul.socials {
   margin-left: 20px;
   width: 200px;
   margin-top: 50px;
 }
 
-section.recent{
-  background-color: #FFFFFF;
-  height: 200px; 
+section.recent {
+  background-color: #fff;
+  height: 200px;
 }
 
-h2.recent{
+h2.recent {
   width: 90%;
   height: 83px;
   line-height: 52px;
-  color: #1C1A19;
+  color: #1c1a19;
   text-align: center;
   font-size: 40px;
   border-bottom: 1px solid #212121;
@@ -134,21 +134,21 @@ h2.recent{
   padding-bottom: 100px;
 }
 
-article.story{
+article.story {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   margin-top: 200px;
-  background-color: #FFFFFF;
+  background-color: #fff;
   background-image: url(imgs/recent_workbg.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
-h2.story{
+h2.story {
   margin-top: 600px;
   text-align: left;
   font-size: 32px;
   line-height: 44px;
-  color: #091E42;
+  color: #091e42;
   margin-left: 20px;
   grid-column: 1 / 6;
 }
@@ -160,15 +160,19 @@ p.story {
   font-size: 16px;
   line-height: 24px;
   height: 200px;
-  min-width: 300px; 
+  min-width: 300px;
   margin-left: 20px;
   margin-bottom: -80px;
   grid-column: 1 / 3;
 }
 
+.about li {
+  margin-top: 100px;
+}
+
 ul.story {
   width: 300px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -178,13 +182,13 @@ ul.story {
   grid-column: 1 / 3;
 }
 
-ul.story li{
-  border: 1px solid #8993A4; 
-  color: #091E42;
+ul.story li {
+  border: 1px solid #8993a4;
+  color: #091e42;
   padding: 10px 12px;
 }
 
-a.story{
+a.story {
   margin-left: 20px;
   grid-column: 1 / 2;
   font-family: 'Inter', sans-serif;
@@ -196,7 +200,7 @@ a.story{
   letter-spacing: 0.03em;
   background: #ff6b00;
   height: 80px;
-  color: #FFFFFF;
+  color: #fff;
   padding: 20px 10px;
 }
 
@@ -211,8 +215,8 @@ article.featured {
 }
 
 h2.featured {
-  margin: 120px 0px 0px 20px;
-  color: #FFFFFF;
+  margin: 120px 0 0 20px;
+  color: #fff;
   grid-column: 1 / 3;
   font-size: 32px;
   line-height: 44px;
@@ -221,30 +225,30 @@ h2.featured {
 }
 
 p.featured {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #fff;
   line-height: 24px;
   margin-left: 20px;
   width: 450px;
 }
 
 ul.featured {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   margin: 10px 20px;
   width: 250px;
 }
 
 ul.featured li {
-background: rgba(255, 255, 255, 0.24);
-padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
 }
 
 h3.button {
@@ -252,20 +256,99 @@ h3.button {
   top: 250px;
   padding-right: 40px;
   grid-column: 1/ 6;
-  background: #FF6B00;
+  background: #ff6b00;
   height: 50px;
   text-align: center;
   padding-top: 10px;
 }
 
 a.button {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color:#FFFFFF;
+  color: #fff;
   height: 48px;
   text-align: center;
-  text-decoration: none; 
+  text-decoration: none;
+}
+
+.about ul {
+  display: block;
+  text-align: center;
+  font-family: InaiMathi, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  background-color: #1c1a19;
+}
+
+.about {
+  background-image: url(imgs/aboutbgd.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #1c1a19;
+  margin-top: 30px;
+  height: 750px;
+}
+
+.about h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ff6b00;
+}
+
+.about p {
+  height: 148px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 30px 30px;
+  color: #fff;
+}
+
+ul.outer {
+  margin-top: 354px;
+  border-top: 1px solid white;
+}
+
+li.outer {
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+li.inner {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.about a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 30px;
+  width: 300px;
+  height: 50px;
+  padding: 15px 12px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #ff6b00;
 }
