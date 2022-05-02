@@ -354,4 +354,5 @@ li.inner {
 
 .featured li {
   float: left;
+  margin: 5px;
 }
