@@ -67,7 +67,6 @@ article.intro {
 
 ul {
   list-style: none;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -351,4 +350,9 @@ li.inner {
   line-height: 24px;
   color: #fff;
   background-color: #ff6b00;
+}
+
+.featured li {
+  float: left;
+  margin: 5px;
 }
