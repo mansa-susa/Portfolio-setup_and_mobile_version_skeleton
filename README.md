@@ -8,6 +8,8 @@ The goal is to show understanding of
 - Fixing Lint errors
 - Requesting code reviews
 - Requesting pull requests
+- Added my contact form
+- Implemented buttons
 ## Built With
 - Html
 - Css
